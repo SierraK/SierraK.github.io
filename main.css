@@ -41,6 +41,22 @@ body {
     color: #ff00ff;
 }
 
+a.indexSelected {
+    color: #00ffff;
+}
+
+a.aboutSelected {
+    color: #FFFF66;
+}
+
+a.projectSelected {
+    color: #00ff99;
+}
+
+a.contactSelected {
+    color: #ff00ff;
+}
+
 .main {
     margin-left: 75px; 
     padding: 0px 10px; 
