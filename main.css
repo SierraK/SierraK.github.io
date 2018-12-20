@@ -1,13 +1,36 @@
+body, html {
+    height: 100%;
+}
+
 body {
     background-image: url("images/abstract.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     z-index: -1;
+    height: auto;
+}
+
+body.home {
+    background-image: url("images/mountain.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    height: auto;
+    background-position: center;
+}
+
+#indexMain {
+    margin-left: 75px; 
+    padding: 0px 10px; 
+}
+
+#indexMain h1 {
+    color: #00ffff;
 }
 
 .sideNav {
     height: 100%;
-    width: 75px;
+    width: 80px;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -15,12 +38,16 @@ body {
     background-color: black;
     overflow-x: hidden;
     padding-top: 20px;
+    padding-bottom: 20px;
 }
 
+
+
 .sideNav a {
+    text-align: center;
     padding: 6px 8px 6px 16px;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 28px;
     color: grey;
     display: block;
 }
@@ -55,11 +82,6 @@ a.projectSelected {
 
 a.contactSelected {
     color: #ff00ff;
-}
-
-.main {
-    margin-left: 75px; 
-    padding: 0px 10px; 
 }
 
 h1 {
