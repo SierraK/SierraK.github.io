@@ -17,20 +17,27 @@ body.home {
     z-index: -1;
     height: auto;
     background-position: center;
+
 }
 
-#indexMain {
-    margin-left: 75px; 
-    padding: 0px 10px; 
+#indexContent {
+    width: auto
 }
 
-#indexMain h1 {
+#indexContent h1, #indexContent h2 {
+    font-size: 48px;
     color: #00ffff;
+    margin: 10px;
+    text-align: left;
+}
+
+h2 span {
+    color: #ff00ff;
 }
 
 .sideNav {
     height: 100%;
-    width: 80px;
+    width: 7%;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -41,15 +48,18 @@ body.home {
     padding-bottom: 20px;
 }
 
-
-
 .sideNav a {
     text-align: center;
-    padding: 6px 8px 6px 16px;
+    padding: 6px 8px 6px 8px;
     text-decoration: none;
     font-size: 28px;
     color: grey;
     display: block;
+}
+
+.dummySideNav {
+    padding-top: 90px;
+    padding-bottom: 90px;
 }
 
 .fa-home:hover {
